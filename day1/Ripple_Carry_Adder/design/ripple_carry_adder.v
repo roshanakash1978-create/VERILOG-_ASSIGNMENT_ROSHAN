@@ -8,7 +8,7 @@ module FA (
     assign sum  = a ^ b ^ cin;
     assign cout = (a & b) | (b & cin) | (cin & a);
 endmodule
-module ripple_carry_adder_4bit (
+module ripple_carry_adder(
     input [3:0] A,   
     input [3:0] B,   
     input Cin,      
