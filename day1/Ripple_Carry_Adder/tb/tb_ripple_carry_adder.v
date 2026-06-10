@@ -4,18 +4,32 @@ module tb_ripple_carry_adder_4bit;
     reg Cin;
     wire [3:0] S;
     wire Cout;
-    ripple_carry_adder_4bit mygate (
+    
+    ripple_carry_adder mygate (
         .A(A), 
         .B(B), 
         .Cin(Cin), 
         .S(S), 
         .Cout(Cout)
     );
+    
     initial begin
+        $dumpfile("dump.vcd");
+        $dumpvars(0, tb_ripple_carry_adder_4bit);
+    end
+    
+    initial begin
+        $monitor("Time=%0dt | A=%b, B=%b, Cin=%b -> Cout=%b, S=%b", 
+                 $time, A, B, Cin, Cout, S);
+                 
+        #1;
         A = 4'b0010; B = 4'b0100; Cin = 1'b0; #10; 
         A = 4'b0101; B = 4'b0011; Cin = 1'b1; #10; 
         A = 4'b0111; B = 4'b0001; Cin = 1'b0; #10; 
         A = 4'b1111; B = 4'b0001; Cin = 1'b0; #10; 
         A = 4'b1111; B = 4'b1111; Cin = 1'b1; #10;
-end     
+        
+        #5;
+        $finish;
+    end     
 endmodule
