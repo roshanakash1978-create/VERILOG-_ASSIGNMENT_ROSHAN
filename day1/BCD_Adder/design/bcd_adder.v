@@ -8,6 +8,7 @@ module full_adder (
     assign sum = a ^ b ^ cin;
     assign cout = (a & b) | (b & cin) | (cin & a);
 endmodule
+
 module rca_4bit (
     input [3:0] A,
     input [3:0] B,
@@ -21,6 +22,7 @@ module rca_4bit (
     full_adder fa2 (A[2], B[2], c2,  S[2], c3);
     full_adder fa3 (A[3], B[3], c3,  S[3], cout);
 endmodule
+
 module bcd_adder (
     input [3:0] A,     
     input [3:0] B,    
@@ -28,7 +30,6 @@ module bcd_adder (
     output [3:0] Sum,  
     output cout       
 );
-
     wire [3:0] rca1_sum;
     wire rca1_cout;
     wire [3:0] correction_bits;
