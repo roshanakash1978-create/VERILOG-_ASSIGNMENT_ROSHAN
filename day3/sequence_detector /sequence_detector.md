@@ -1,4 +1,6 @@
 <img width="1880" height="310" alt="Screenshot 2026-06-10 135406" src="https://github.com/user-attachments/assets/e09ec6e4-b381-4518-bba1-31c85af05286" />
+<img width="4000" height="3000" alt="20260610_151511" src="https://github.com/user-attachments/assets/be100e78-e09a-4789-9b1f-d0faeac88fec" />
+
 
 1110 Sequence Detector (Verilog FSM)
 ------------------------------------
