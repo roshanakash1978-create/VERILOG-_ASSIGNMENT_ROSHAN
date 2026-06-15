@@ -28,6 +28,8 @@ module tb;
         bif.A = 4'd9; bif.B = 4'd9; bif.cin = 1'b1;
     end
     initial begin
+        $monitor("Time=%0t | A=%d, B=%d, cin=%b | cout=%b, Sum=%d", 
+                 $time, bif.A, bif.B, bif.cin, bif.cout, bif.Sum);
         #40;
         $finish();
     end
