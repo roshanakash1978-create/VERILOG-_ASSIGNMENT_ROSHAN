@@ -7,23 +7,23 @@ Testbench Architecture
 -----------------------
 The testbench implementation adheres to the commonly-used modular approach:
 
-**transaction.sv:** Specifies the data object (DMA parameters, such as src_addr, dest_addr, transfer_bytes, and sg_mode) and constraints.
+transaction.sv:Specifies the data object (DMA parameters, such as src_addr, dest_addr, transfer_bytes, and sg_mode) and constraints.
 
-**generator.sv: **Responsible for creating and randomizing transaction objects and supporting test-specific customization (forcing the mode or size).
+generator.sv: Responsible for creating and randomizing transaction objects and supporting test-specific customization (forcing the mode or size).
 
-**driver.sv: **Controls the virtual interface (axi_dma_if) by converting transactions into AXI/Control pins.
+driver.sv: Controls the virtual interface (axi_dma_if) by converting transactions into AXI/Control pins.
 
-**monitor.sv: **Monitors the AXI bus traffic and forwards data to the scoreboard for checking.
+monitor.sv: Monitors the AXI bus traffic and forwards data to the scoreboard for checking.
 
-**scoreboard.sv:**Stores the observed transactions and checks the output (such as the number of valid write transactions).
+scoreboard.sv:Stores the observed transactions and checks the output (such as the number of valid write transactions).
 
-**agent.sv: **Component responsible for creating instances of the Generator, Driver, and Monitor.
+agent.sv: Component responsible for creating instances of the Generator, Driver, and Monitor.
 
-**environment.sv:** The top-level verification component.
+environment.sv:The top-level verification component.
 
-**test.sv: **File containing the base test class and individual tests (test_16bit_normal, test_scatter_gather, test_randomized).
+test.sv: File containing the base test class and individual tests (test_16bit_normal, test_scatter_gather, test_randomized).
 
-**testbench.sv:** The top-level module containing the design under test (DUT), clock generation, reset logic, and slave models (memory emulation).
+testbench.sv: The top-level module containing the design under test (DUT), clock generation, reset logic, and slave models (memory emulation).
 
 
 Features
