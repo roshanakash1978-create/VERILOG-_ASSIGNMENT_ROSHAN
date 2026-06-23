@@ -1,4 +1,4 @@
-**Enter the details of your work and file structure of each days here**
+
 Verilog HDL Internship Portfolio
 -------------------------------
 Overview
