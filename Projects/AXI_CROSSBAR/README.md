@@ -1,7 +1,5 @@
 
 
-<img width="717" height="418" alt="image" src="https://github.com/user-attachments/assets/03212cca-6faa-4cce-b456-66d3d038319c" />
-
 # AXI4 Crossbar with Adaptive Fairness Arbitration and Reliability Enhancements
 
 ## Project Overview
