@@ -2,6 +2,7 @@
 Verilog HDL Internship Portfolio
 -------------------------------
 Overview
+-------
 This repository serves as a comprehensive record of the projects and assignments completed during the 15-Day Verilog HDL Internship Program organized by the Department of Electronics and Communication Engineering at TKM College of Engineering. The portfolio showcases practical experience in digital hardware design, simulation, and functional verification using Verilog HDL and the Xilinx Vivado Design Suite. It includes implementations of both combinational and sequential circuits along with their corresponding testbenches, simulation results, and waveform analyses.
 
 Through these assignments, various concepts of digital system design were explored, ranging from basic arithmetic circuits to sequential storage elements and register architectures.
