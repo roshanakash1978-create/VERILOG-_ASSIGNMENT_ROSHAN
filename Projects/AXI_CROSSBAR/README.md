@@ -50,4 +50,12 @@ Reliability: System is 100% deadlock free, and there
 <img width="1245" height="591" alt="WhatsApp Image 2026-06-22 at 9 13 29 PM" src="https://github.com/user-attachments/assets/b9753b5e-c94d-4c11-a3c6-27518fb1dd26" />
 <img width="1249" height="584" alt="WhatsApp Image 2026-06-22 at 9 13 31 PM" src="https://github.com/user-attachments/assets/54149737-58e4-4486-bc44-87fa622b48ca" />
 
+<img width="1157" height="505" alt="WhatsApp Image 2026-06-23 at 10 58 48 AM" src="https://github.com/user-attachments/assets/9abf3565-4b19-4c7d-994a-6b3b4e40f818" />
+<img width="1150" height="500" alt="WhatsApp Image 2026-06-23 at 10 58 47 AM" src="https://github.com/user-attachments/assets/50a7b75a-3295-4e47-b9f4-f6a59f0cf74a" />
+<img width="1158" height="505" alt="WhatsApp Image 2026-06-23 at 10 58 46 AM" src="https://github.com/user-attachments/assets/f1676502-375a-43dd-aa36-8472fece726a" />
+<img width="1156" height="481" alt="WhatsApp Image 2026-06-23 at 10 58 41 AM" src="https://github.com/user-attachments/assets/36e398ce-9036-4494-a184-766616eeef7e" />
+<img width="1152" height="515" alt="WhatsApp Image 2026-06-23 at 10 58 50 AM" src="https://github.com/user-attachments/assets/0645a568-2f5f-4e0b-819c-368fcc54476a" />
+<img width="1149" height="445" alt="WhatsApp Image 2026-06-23 at 10 58 50 AM (1)" src="https://github.com/user-attachments/assets/0a671d90-5724-43bb-b3cd-4e769a2a84da" />
+<img width="1148" height="522" alt="WhatsApp Image 2026-06-23 at 10 58 49 AM" src="https://github.com/user-attachments/assets/4b4c84c7-cc39-4ff8-a3cd-f1630e82718e" />
+
 
